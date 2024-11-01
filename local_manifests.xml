@@ -5,8 +5,8 @@
 
 
 <!-- Lineage OS Pixel Device Trees -->
-<project name="mw185175/android_device_google_shusky" path="device/google/shusky" remote="github" revision="SuperiorOS" />
-<project name="minaripenguin/android_device_google_gs101" path="device/google/gs101" remote="github" revision="fourteen" />
+<project name="https://github.com/mw185175/android_device_google_shusky/tree/SuperiorOS-_15_Shusky" path="device/google/shusky" remote="github" revision="SuperiorOS_15-Shusky" />
+<project name="minaripenguin/android_device_google_gs101" path="device/google/gs101" remote="github" revision="fifteen" />
 <project name="Trijal08/android_device_google_zuma" path="device/google/zuma" remote="github" revision="RisingOS-4.x" />
 
 <!-- Lineage OS Pixel Vendor Trees -->
@@ -14,7 +14,7 @@
 <project name="austineyoung2000/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="RisingOS" />
 
 <!-- Prebuilt Kernel -->
-<project name="Trijal08/sultan_device_google_shusky-kernel" path="device/google/shusky-kernel" remote="github" revision="14"/>
+<project name="Trijal08/sultan_device_google_shusky-kernel" path="device/google/shusky-kernel" remote="github" revision="15"/>
 
 <!-- Extra trees -->
 <project name="SigmaDroid-Project/vendor_google_faceunlock" path="vendor/google/faceunlock" remote="github" revision="sigma-14.3"/>
