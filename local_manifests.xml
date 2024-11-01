@@ -14,7 +14,7 @@
 <project name="austineyoung2000/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="RisingOS" />
 
 <!-- Prebuilt Kernel -->
-<project name="https://github.com/kerneltoast/android_kernel_google_zuma/tree/15.0.0-sultan" path="device/google/shusky-kernel" remote="github" revision="15"/>
+<project name="Trijal08/sultan_device_google_shusky-kernels_5.15" path="device/google/shusky-kernels/5.15" remote="github" revision="15"/>
 
 <!-- Extra trees -->
 <project name="SigmaDroid-Project/vendor_google_faceunlock" path="vendor/google/faceunlock" remote="github" revision="sigma-14.3"/>
