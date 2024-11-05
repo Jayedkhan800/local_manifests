@@ -6,21 +6,22 @@
 
 <!-- Lineage OS Pixel Device Trees -->
 <project name="Trijal08/android_device_google_shusky" path="device/google/shusky" remote="github" revision="TenX_OS" />
-<project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="lineage-21" />
-<project name="minaripenguin/android_device_google_gs101" path="device/google/gs101" remote="github" revision="fourteen" />
-<project name="Trijal08/android_device_google_zuma" path="device/google/zuma" remote="github" revision="RisingOS-4.x" />
+<project name="crdroidandroid/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="14.0-glikched" />
+<project name="crdroidandroid/android_device_google_gs101" path="device/google/gs101" remote="github" revision="14.0-glikched" />
+<project name="ionutsandroidbuilds/android_device_google_zuma" path="device/google/zuma" remote="github" revision="14.0" />
 
 <!-- Lineage OS Pixel Vendor Trees -->
-<project name="TheMuppets/proprietary_vendor_google_husky" path="vendor/google/husky" remote="github" revision="lineage-21" />
-<project name="TheMuppets/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="lineage-21" />
+<project name="ionutsandroidbuilds/proprietary_vendor_google_husky" path="vendor/google/husky" remote="github" revision="14.0" />
+<project name="ionutsandroidbuilds/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="14.0" />
 
 <!-- Prebuilt Kernel -->
 <project name="Trijal08/neutrino_device_google_shusky-kernel" path="device/google/shusky-kernel" remote="github" revision="14"/>
 
 <!-- Extra trees -->
 <project name="SigmaDroid-Project/vendor_google_faceunlock" path="vendor/google/faceunlock" remote="github" revision="sigma-14.3"/>
-<project name="SigmaDroid-Project/packages_apps_PixelParts" path="packages/apps/PixelParts" remote="github" revision="sigma-14.3" />
-<project name="ashoss/vendor_bcr" path="vendor/bcr" remote="github" revision="main"/>
+<!-- project name="ionutsandroidbuilds/proprietary_vendor_google_camera" path="vendor/google/camera" remote="github" revision="14.0" / -->
+<project name="ionutsandroidbuilds/packages_apps_PixelParts" path="packages/apps/PixelParts" remote="github" revision="14.0" />
+<project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="github" revision="main"/>
 <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="github" revision="v4a"/>
 
 </manifest>
