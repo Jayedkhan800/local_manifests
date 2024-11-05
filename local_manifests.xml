@@ -5,9 +5,9 @@
 
 
 <!-- Lineage OS Pixel Device Trees -->
-<project name="Trijal08/android_device_google_shusky-1" path="device/google/shusky" remote="github" revision="OrionOS" />
+<project name="Trijal08/android_device_google_shusky-1" path="device/google/shusky" remote="github" revision="OrionOS-Rising" />
 <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="lineage-21" />
-<project name="minaripenguin/android_device_google_gs101" path="device/google/gs101" remote="github" revision="fourteen" />
+<project name="Jrcable1/android_device_google_gs101" path="device/google/gs101" remote="github" revision="lineage-21" />
 <project name="austineyoung2000/android_device_google_zuma" path="device/google/zuma" remote="github" revision="RisingOS-4.x" />
 
 <!-- Lineage OS Pixel Vendor Trees -->
