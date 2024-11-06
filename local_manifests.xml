@@ -11,8 +11,8 @@
 <project name="ionutsandroidbuilds/android_device_google_zuma" path="device/google/zuma" remote="github" revision="14.0" />
 
 <!-- Lineage OS Pixel Vendor Trees -->
-<project name="ionutsandroidbuilds/proprietary_vendor_google_husky" path="vendor/google/husky" remote="github" revision="14.0" />
-<project name="ionutsandroidbuilds/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="14.0" />
+<project name="TheMuppets/proprietary_vendor_google_husky" path="vendor/google/husky" remote="github" revision="lineage-21" />
+<project name="TheMuppets/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="lineage-21" />
 
 <!-- Prebuilt Kernel -->
 <project name="Trijal08/neutrino_device_google_shusky-kernel" path="device/google/shusky-kernel" remote="github" revision="14"/>
