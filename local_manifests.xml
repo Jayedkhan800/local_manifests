@@ -6,7 +6,7 @@
          review="review.lineageos.org" />
 
 <!-- Removed Projects -->
-<remove-project path="device/google/shusky-kernels/5.15" />
+<!-- remove-project path="device/google/shusky-kernels/5.15" / -->
 <remove-project path="hardware/google/pixel" />
 <remove-project path="hardware/google/pixel-sepolicy" />
 <remove-project path="hardware/google/graphics/common" />
