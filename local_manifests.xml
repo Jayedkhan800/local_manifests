@@ -6,6 +6,7 @@
          review="review.lineageos.org" />
 
 <!-- Removed Projects -->
+<remove-project path="device/google/shusky-kernels/5.15" />
 
 
 <!-- Lineage OS Pixel Device Trees -->
