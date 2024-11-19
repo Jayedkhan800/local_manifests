@@ -2,12 +2,12 @@
 <manifest>
 
 <!-- Removed Projects -->
+<remove-project path="vendor/bcr" />
 <remove-project path="hardware/google/pixel" />
 <remove-project path="hardware/google/pixel-sepolicy" />
 <remove-project path="hardware/google/graphics/common" />
 <remove-project path="hardware/google/gchips" />
 <remove-project path="hardware/google/camera" />
-<!-- remove-project path="packages/apps/Calendar" / -->
 
 
 <!-- crDroid Pixel Device Trees -->
