@@ -2,7 +2,7 @@
 <manifest>
 
 <!-- crDroid Pixel Device Trees -->
-<project name="ionutsandroidbuilds/android_device_google_shusky" path="device/google/shusky" remote="github" revision="15.0" />
+<project name="Trijal08/android_device_google_shusky" path="device/google/shusky" remote="github" revision="Evolution_X-15" />
 <project name="crdroidandroid/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="15.0" />
 <project name="crdroidandroid/android_device_google_gs101" path="device/google/gs101" remote="github" revision="15.0" />
 <project name="ionutsandroidbuilds/android_device_google_zuma" path="device/google/zuma" remote="github" revision="15.0" />
