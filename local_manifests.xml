@@ -26,7 +26,7 @@
 <project name="LineageOS/android_hardware_google_camera" path="hardware/google/camera" remote="github" revision="lineage-22.0" />
 
 <!-- Prebuilt Kernel -->
-<project name="Trijal08/dragon_device_google_shusky-kernels_5.15" path="device/google/shusky-kernels/5.15" remote="github" revision="15"/>
+<project name="Trijal08/dragon_device_google_shusky-kernels_5.15" path="device/google/shusky-kernels/5.15" remote="github" revision="dragon-kernel-android15-pwm-mod-nethunter"/>
 
 <!-- Extra trees -->
 <project name="SigmaDroid-Project/packages_apps_PixelParts" path="packages/apps/PixelParts" remote="github" revision="sigma-15"/>
