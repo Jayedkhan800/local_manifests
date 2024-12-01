@@ -26,7 +26,7 @@
 <project name="LineageOS/android_hardware_google_camera" path="hardware/google/camera" remote="github" revision="lineage-22.0" />
 
 <!-- Prebuilt Kernel -->
-<project name="Trijal08/dragon_device_google_shusky-kernels_5.15" path="device/google/shusky-kernels/5.15" remote="github" revision="dragon-kernel-android15-pwm-mod-nethunter" />
+<project name="Trijal08/dragon_device_google_shusky-kernels_5.15" path="device/google/shusky-kernels/5.15" remote="github" revision="dragon-kernel-android15-pwm-mod-nethunter" clone-depth="1" />
 
 <!-- Extra trees -->
 <!-- project name="ionutsandroidbuilds/proprietary_vendor_google_faceunlock" path="vendor/google/faceunlock" remote="github" revision="15.0" / -->
