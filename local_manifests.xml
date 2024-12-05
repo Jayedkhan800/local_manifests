@@ -2,7 +2,11 @@
 <manifest>
 
 <!-- Removed Projects -->
-
+<remove-project path="hardware/google/pixel" />
+<remove-project path="hardware/google/pixel-sepolicy" />
+<remove-project path="hardware/google/graphics/common" />
+<remove-project path="hardware/google/gchips" />
+<remove-project path="hardware/google/camera" />
 
 <!-- Lineage OS Pixel Device Trees -->
 <project name="Trijal08/android_device_google_shusky" path="device/google/shusky" remote="github" revision="OrionOS-14" />
