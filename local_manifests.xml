@@ -2,17 +2,28 @@
 <manifest>
 
 <!-- Removed Projects -->
-
+<remove-project path="hardware/google/pixel" />
+<remove-project path="hardware/google/pixel-sepolicy" />
+<remove-project path="hardware/google/graphics/common" />
+<remove-project path="hardware/google/gchips" />
+<remove-project path="hardware/google/camera" />
 
 <!-- Lineage OS Pixel Device Trees -->
-<project name="Trijal08/android_device_google_shusky" path="device/google/shusky" remote="github" revision="TenX_OS" />
+<project name="Trijal08/android_device_google_shusky" path="device/google/shusky" remote="github" revision="TenX_OS-14" />
 <project name="crdroidandroid/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="14.0-glikched" />
 <project name="crdroidandroid/android_device_google_gs101" path="device/google/gs101" remote="github" revision="14.0-glikched" />
-<project name="ionutsandroidbuilds/android_device_google_zuma" path="device/google/zuma" remote="github" revision="14.0" />
+<project name="Trijal08/android_device_google_zuma" path="device/google/zuma" remote="github" revision="14.0" />
 
-<!-- Lineage OS Pixel Vendor Trees -->
+<!-- LineageOS Pixel Vendor Trees -->
 <project name="TheMuppets/proprietary_vendor_google_husky" path="vendor/google/husky" remote="github" revision="lineage-21" clone-depth="1" />
 <project name="TheMuppets/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="lineage-21" clone-depth="1" />
+
+<!-- crDroid and LineageOS hardware trees -->
+<project name="crdroidandroid/android_hardware_google_pixel" path="hardware/google/pixel" remote="github" revision="14.0" />
+<project name="crdroidandroid/android_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" remote="github" revision="14.0" />
+<project name="LineageOS/android_hardware_google_gchips" path="hardware/google/gchips" remote="github" revision="lineage-21" />
+<project name="LineageOS/android_hardware_google_graphics_common" path="hardware/google/graphics/common" remote="github" revision="lineage-21" />
+<project name="LineageOS/android_hardware_google_camera" path="hardware/google/camera" remote="github" revision="lineage-21" />
 
 <!-- Prebuilt Kernel -->
 <project name="Trijal08/dragon_device_google_shusky-kernel" path="device/google/shusky-kernel" remote="github" revision="14" clone-depth="1" />
