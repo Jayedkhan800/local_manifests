@@ -44,7 +44,7 @@
 <!-- Mi439 -->
 <!-- project path="device/xiaomi/Mi439" name="Trijal08/android_device_xiaomi_Mi439" groups="device" remote="github" revision="Mist_OS-15" / -->
 <project path="device/xiaomi/Mi439" name="Porter-union-rom-updates/android_device_xiaomi_Mi439" groups="device" remote="github" revision="MIST/15" />
-<project path="vendor/xiaomi/mi439" name="Mi-Thorium/proprietary_vendor_xiaomi_Mi439" groups="device" remote="github" revision="a14/master" />
+<project path="vendor/xiaomi/Mi439" name="Mi-Thorium/proprietary_vendor_xiaomi_Mi439" groups="device" remote="github" revision="a14/master" />
 
 <!-- Mi439 - Kernel 4.19 -->
 <project path="device/xiaomi/Mi439_4_19" name="Mi-Thorium/android_device_xiaomi_Mi439_4_19" groups="device" remote="github" revision="a11/master"/>
