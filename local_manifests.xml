@@ -1,36 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- Removed Projects -->
-<remove-project path="hardware/google/pixel" />
-<remove-project path="hardware/google/pixel-sepolicy" />
-<remove-project path="hardware/google/graphics/common" />
-<remove-project path="hardware/google/gchips" />
-<remove-project path="hardware/google/camera" />
+<!-- Common -->
+<project path="device/xiaomi/mithorium-common" name="Gtajisan/android_device_xiaomi_mithorium-common" groups="device" remote="github" revision="a15/master"/>
+<project path="vendor/xiaomi/mithorium-common" name="Mi-Thorium/proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="github" revision="a15/master" />
+<project path="vendor/xiaomi/mithorium-common-graphics" name="Mi-Thorium/proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="github" revision="a11/master"/>
 
-<!-- crDroid and LineageOS Pixel Device Trees -->
-<project name="Trijal08/android_device_google_shusky" path="device/google/shusky" remote="github" revision="Mist_OS-15" />
-<project name="crdroidandroid/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="15.0" />
-<project name="Jrcable1/android_device_google_gs101" path="device/google/gs101" remote="github" revision="lineage-22.0" />
-<project name="Trijal08/android_device_google_zuma" path="device/google/zuma" remote="github" revision="15.0" />
+<!-- Common - Kernel 4.19 -->
+<project path="vendor/xiaomi/mithorium-common-4.19" name="Mi-Thorium/proprietary_vendor_xiaomi_mithorium-common-4.19" groups="device" remote="github" revision="a15/master" />
 
-<!-- LineageOS Pixel Vendor Trees -->
-<project name="TheMuppets/proprietary_vendor_google_husky" path="vendor/google/husky" remote="github" revision="lineage-22.0" clone-depth="1" />
-<project name="TheMuppets/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="lineage-22.0" clone-depth="1" />
+<!-- Hardware -->
+<project path="hardware/mithorium/common" name="Mi-Thorium/android_hardware_mithorium_common" groups="device" remote="github" revision="lineage">
+    <linkfile src="_Android.mk" dest="hardware/mithorium/Android.mk" />
+    <linkfile src="mithorium_qcom_hals.mk" dest="hardware/mithorium/mithorium_qcom_hals.mk" />
 
-<!-- crDroid and LineageOS hardware trees -->
-<project name="crdroidandroid/android_hardware_google_pixel" path="hardware/google/pixel" remote="github" revision="15.0" />
-<project name="crdroidandroid/android_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" remote="github" revision="15.0" />
-<project name="LineageOS/android_hardware_google_gchips" path="hardware/google/gchips" remote="github" revision="lineage-22.0" />
-<project name="LineageOS/android_hardware_google_graphics_common" path="hardware/google/graphics/common" remote="github" revision="lineage-22.0" />
-<project name="LineageOS/android_hardware_google_camera" path="hardware/google/camera" remote="github" revision="lineage-22.0" />
+    <linkfile src="guard-generic.bp" dest="hardware/mithorium/audio/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0/Android.bp" />
+    <linkfile src="guard-generic.bp" dest="hardware/mithorium/audio/lineage-22.0-caf-msm8953/Android.bp" />
+    <linkfile src="guard-generic.bp" dest="hardware/mithorium/display/LA.UM.8.6.2.r1-09500-89xx.0/Android.bp" />
 
-<!-- Prebuilt Kernel -->
-<project name="Trijal08/dragon_device_google_shusky-kernels_5.15" path="device/google/shusky-kernels/5.15" remote="github" revision="dragon-kernel-android15-pwm-mod-nethunter" clone-depth="1" />
+    <linkfile src="guard-qcom-qssi-display-lineage-19.1.bp" dest="hardware/mithorium/display/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0/Android.bp" />
+    <linkfile src="guard-qcom-qssi-display.mk"              dest="hardware/mithorium/display/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0/Android.mk" />
+
+    <linkfile src="guard-qcom-qssi-display-lineage-19.1.bp" dest="hardware/mithorium/display/lineage-22.0-caf-msm8953/Android.bp" />
+    <linkfile src="guard-qcom-qssi-display.mk"              dest="hardware/mithorium/display/lineage-22.0-caf-msm8953/Android.mk" />
+</project>
+
+<!-- Hardware - display-commonsys-intf -->
+<project path="hardware/mithorium/display/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom"/>
+<project path="hardware/mithorium/display/lineage-22.0-caf-msm8953/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom"/>
+
+<!-- Hardware - LA.UM.8.6.2 -->
+<project path="hardware/mithorium/display/LA.UM.8.6.2.r1-09500-89xx.0/display" name="Mi-Thorium/android_hardware_qcom_display_mithorium" groups="device" remote="github" revision="mithorium/LA.UM.8.6.2.r1-09500-89xx.0"/>
+
+<!-- Hardware - LA.UM.9.6.3 -->
+<project path="hardware/mithorium/audio/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0/hal" name="Mi-Thorium/android_hardware_qcom_audio_mithorium" groups="device" remote="github" revision="mithorium/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0"/>
+<project path="hardware/mithorium/media/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0/hal" name="Mi-Thorium/android_hardware_qcom_media_mithorium" groups="device" remote="github" revision="mithorium/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0"/>
+<project path="hardware/mithorium/display/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0/hal" name="Mi-Thorium/android_hardware_qcom_display_mithorium" groups="device" remote="github" revision="mithorium/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0"/>
+
+<!-- Hardware - LineageOS (based on LA.UM.10.6.2 tags) -->
+<project path="hardware/mithorium/media/lineage-22.0-caf-msm8953/hal" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-22.0-caf-msm8953" />
+<project path="hardware/mithorium/display/lineage-22.0-caf-msm8953/hal" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-22.0-caf-msm8953" />
+
+<!-- Mi439 -->
+<project path="device/xiaomi/Mi439" name="Trijal08/android_device_xiaomi_Mi439" groups="device" remote="github" revision="Mist_OS-15" />
+<project path="vendor/xiaomi/mi439" name="LOLZKERNEL/proprietary_vendor_xiaomi_Mi439-4.19" groups="device" remote="github" revision="vic" />
+
+<!-- Mi439 - Kernel 4.19 -->
+<project path="device/xiaomi/Mi439_4_19" name="Mi-Thorium/android_device_xiaomi_Mi439_4_19" groups="device" remote="github" revision="a11/master"/>
+
+<!-- Kernel -->
+<project path="kernel/xiaomi/mithorium-4.19/kernel" name="Jprimero15/android_kernel_xiaomi_sdm439-4.19" groups="kernel" remote="github" revision="vic" >
+    <linkfile src="drivers" dest="kernel/xiaomi/mithorium-4.19/drivers" />
+</project>
+<project path="kernel/xiaomi/mithorium-4.19/dts/vendor-legacy" name="Mi-Thorium/kernel_devicetree_msm-4.19" groups="dts" revision="dts/master" remote="github" >
+    <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/arch/arm64/boot/dts/vendor-legacy" />
+</project>
+<project path="kernel/xiaomi/mithorium-4.19/dts/xiaomi-msm8937" name="Mi-Thorium/kernel_devicetree_xiaomi-msm8937" groups="dts" revision="dts/mi8937/4.19/master" remote="github" >
+    <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/arch/arm64/boot/dts/xiaomi-msm8937" />
+</project>
+<project path="kernel/xiaomi/mithorium-4.19/dts/xiaomi-sdm439" name="Mi-Thorium/kernel_devicetree_xiaomi-sdm439" groups="dts" revision="dts/mi439/4.19/master" remote="github" >
+    <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/arch/arm64/boot/dts/xiaomi-sdm439" />
+</project>
+<project path="kernel/xiaomi/mithorium-4.19/module/xiaomi-msm8937" name="Mi-Thorium/kernel_techpack_xiaomi-msm8937" groups="module" revision="techpack/mi8937/4.19/master" remote="github" >
+    <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/techpack/xiaomi-msm8937" />
+</project>
+<project path="kernel/xiaomi/mithorium-4.19/module/xiaomi-sdm439" name="Mi-Thorium/kernel_techpack_xiaomi-sdm439" groups="module" revision="techpack/mi439/4.19/master" remote="github" >
+    <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/techpack/xiaomi-sdm439" />
+</project>
+<project path="kernel/xiaomi/mithorium-4.19/module/audio-legacy" name="Mi-Thorium/kernel_techpack_audio-legacy" groups="module" revision="audio/4.19/mithorium/master" remote="github">
+    <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/techpack/audio-legacy" />
+</project>
+<project path="kernel/xiaomi/mithorium-4.19/module/camera-legacy" name="Mi-Thorium/kernel_techpack_camera-legacy" groups="module" revision="camera/LA.UM.8.6.r1-05300-89xx.0/4.19/mithorium" remote="github" >
+    <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/techpack/camera-legacy" />
+</project>
+<project path="kernel/xiaomi/mithorium-4.19/module/camera-legacy-m" name="Mi-Thorium/kernel_techpack_camera-legacy" groups="module" revision="camera/LA.UM.5.3-10610-89xx.0/4.19/mithorium" remote="github" >
+    <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/techpack/camera-legacy-m" />
+</project>
+<project path="kernel/xiaomi/mithorium-4.19/module/prima" name="Mi-Thorium/vendor_qcom_opensource_wlan_prima" groups="module" revision="wlan/LA.UM.9.6.4/mithorium/master"  remote="github" >
+    <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/drivers/staging/prima" />
+</project>
 
 <!-- Extra trees -->
-<!-- project name="ionutsandroidbuilds/proprietary_vendor_google_faceunlock" path="vendor/google/faceunlock" remote="github" revision="15.0" / -->
-<project name="crdroidandroid/android_packages_apps_PixelParts" path="packages/apps/PixelParts" remote="github" revision="15.0" />
 <project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="github" revision="main" />
 <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="github" revision="v4a" />
 
