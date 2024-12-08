@@ -10,23 +10,7 @@
 <project path="vendor/xiaomi/mithorium-common-4.19" name="Mi-Thorium/proprietary_vendor_xiaomi_mithorium-common-4.19" groups="device" remote="github" revision="a15/master" />
 
 <!-- Hardware -->
-<project path="hardware/mithorium/common" name="Mi-Thorium/android_hardware_mithorium_common" groups="device" remote="github" revision="lineage">
-    <linkfile src="_Android.mk" dest="hardware/mithorium/Android.mk" />
-    <linkfile src="mithorium_qcom_hals.mk" dest="hardware/mithorium/mithorium_qcom_hals.mk" />
- 
-    <linkfile src="guard-generic.bp" dest="hardware/mithorium/audio/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0/Android.bp" />
-    <linkfile src="guard-generic.bp" dest="hardware/mithorium/audio/lineage-22.0-caf-msm8953/Android.bp" />
-    <linkfile src="guard-generic.bp" dest="hardware/mithorium/display/LA.UM.8.6.2.r1-09500-89xx.0/Android.bp" />
-
-    <linkfile src="guard-qcom-qssi-display-lineage-19.1.bp" dest="hardware/mithorium/display/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0/Android.bp" />
-    <linkfile src="guard-qcom-qssi-display.mk"              dest="hardware/mithorium/display/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0/Android.mk" />
-
-    <linkfile src="guard-qcom-qssi-display-lineage-19.1.bp" dest="hardware/mithorium/display/lineage-22.0-caf-msm8953/Android.bp" />
-    <linkfile src="guard-qcom-qssi-display.mk"              dest="hardware/mithorium/display/lineage-22.0-caf-msm8953/Android.mk" />
-</project>
-
-<!-- Hardware - display-commonsys-intf -->
-<project path="hardware/mithorium/display/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom" />
+<project path="hardware/mithorium/display/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom"/>
 <project path="hardware/mithorium/display/lineage-22.0-caf-msm8953/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom" />
 
 <!-- Hardware - LA.UM.8.6.2 -->
