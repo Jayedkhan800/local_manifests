@@ -59,14 +59,8 @@
 <project path="kernel/xiaomi/sdm439/dts/xiaomi-msm8937" name="Mi-Thorium/kernel_devicetree_xiaomi-msm8937" groups="dts" revision="dts/mi8937/4.19/master" remote="github" >
     <linkfile src="." dest="arch/arm64/boot/dts/xiaomi-msm8937" />
 </project>
-<project path="kernel/xiaomi/sdm439/dts/xiaomi-sdm439" name="Mi-Thorium/kernel_devicetree_xiaomi-sdm439" groups="dts" revision="dts/mi439/4.19/master" remote="github" >
-    <linkfile src="." dest="arch/arm64/boot/dts/xiaomi-sdm439" />
-</project>
 <project path="kernel/xiaomi/sdm439/module/xiaomi-msm8937" name="Mi-Thorium/kernel_techpack_xiaomi-msm8937" groups="module" revision="techpack/mi8937/4.19/master" remote="github" >
     <linkfile src="." dest="techpack/xiaomi-msm8937" />
-</project>
-<project path="kernel/xiaomi/sdm439/module/xiaomi-sdm439" name="Mi-Thorium/kernel_techpack_xiaomi-sdm439" groups="module" revision="techpack/mi439/4.19/master" remote="github" >
-    <linkfile src="." dest="techpack/xiaomi-sdm439" />
 </project>
 <project path="kernel/xiaomi/sdm439/module/audio-legacy" name="Mi-Thorium/kernel_techpack_audio-legacy" groups="module" revision="audio/4.19/mithorium/master" remote="github">
     <linkfile src="." dest="techpack/audio-legacy" />
