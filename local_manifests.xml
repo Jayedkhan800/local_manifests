@@ -26,8 +26,8 @@
 </project>
 
 <!-- Hardware - display-commonsys-intf -->
-<project path="hardware/mithorium/display/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0/display" name="MI439-CLO/android_vendor_qcom_opensource_display-commonsys-intf" remote="github" revision="vic" groups="qcom,pdk-qcom" />
-<project path="hardware/mithorium/display/lineage-22.0-caf-msm8953/display" name="MI439-CLO/android_vendor_qcom_opensource_display-commonsys-intf" remote="github" revision="vic" groups="qcom,pdk-qcom" />
+<project path="hardware/mithorium/display/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0/display" name="MI439-CLO/android_vendor_qcom_opensource_display-commonsys" remote="github" revision="vic" groups="qcom,pdk-qcom" />
+<project path="hardware/mithorium/display/lineage-22.0-caf-msm8953/display" name="MI439-CLO/android_vendor_qcom_opensource_display-commonsys" remote="github" revision="vic" groups="qcom,pdk-qcom" />
 
 <!-- Hardware - LA.UM.8.6.2 -->
 <project path="hardware/mithorium/display/LA.UM.8.6.2.r1-09500-89xx.0/display" name="Mi-Thorium/android_hardware_qcom_display_mithorium" groups="device" remote="github" revision="mithorium/LA.UM.8.6.2.r1-09500-89xx.0" />
