@@ -33,8 +33,8 @@
 <project path="hardware/mithorium/display/LA.UM.8.6.2.r1-09500-89xx.0/display" name="Mi-Thorium/android_hardware_qcom_display_mithorium" groups="device" remote="github" revision="mithorium/LA.UM.8.6.2.r1-09500-89xx.0" />
 
 <!-- Hardware - LA.UM.9.6.4 -->
-<project path="hardware/mithorium/audio/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0/hal" name="MI439-CLO/android_hardware_qcom_audio_mithorium" groups="device" remote="github" revision="mithorium/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0" />
-<project path="hardware/mithorium/media/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0/hal" name="MI439-CLO/android_hardware_qcom_media_mithorium" groups="device" remote="github" revision="mithorium/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0" />
+<project path="hardware/mithorium/audio/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0/hal" name="Mi-Thorium/android_hardware_qcom_audio_mithorium" groups="device" remote="github" revision="mithorium/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0" />
+<project path="hardware/mithorium/media/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0/hal" name="Mi-Thorium/android_hardware_qcom_media_mithorium" groups="device" remote="github" revision="mithorium/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0" />
 <project path="hardware/mithorium/display/LA.UM.9.6.4.r2-03900-89xx.QSSI13r2.0/hal" name="MI439-CLO/android_hardware_qcom_display_mithorium" groups="device" remote="github" revision="vic" />
 
 <!-- Hardware - LineageOS (based on LA.UM.10.6.2 tags) -->
