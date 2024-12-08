@@ -52,9 +52,7 @@
 <project path="device/xiaomi/Mi439_4_19" name="Mi-Thorium/android_device_xiaomi_Mi439_4_19" groups="device" remote="github" revision="a11/master"/>
 
 <!-- Kernel -->
-<project path="kernel/xiaomi/sdm439" name="Jprimero15/android_kernel_xiaomi_sdm439-4.19" groups="kernel" remote="github" revision="vic" >
-    <linkfile src="drivers" dest="kernel/xiaomi/sdm439/drivers" />
-</project>
+<project path="kernel/xiaomi/sdm439" name="Jprimero15/android_kernel_xiaomi_sdm439-4.19" groups="kernel" remote="github" revision="vic" />
 <project path="kernel/xiaomi/sdm439/dts/vendor-legacy" name="Mi-Thorium/kernel_devicetree_msm-4.19" groups="dts" revision="dts/master" remote="github" >
     <linkfile src="." dest="arch/arm64/boot/dts/vendor-legacy" />
 </project>
