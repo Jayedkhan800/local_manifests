@@ -2,7 +2,7 @@
 <manifest>
 
 <!-- Common -->
-<project path="device/xiaomi/mithorium-common" name="Gtajisan/android_device_xiaomi_mithorium-common" groups="device" remote="github" revision="a15/master"/>
+<project path="device/xiaomi/mithorium-common" name="Trijal08/android_device_xiaomi_mithorium-common" groups="device" remote="github" revision="a15/master"/>
 <project path="vendor/xiaomi/mithorium-common" name="Mi-Thorium/proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="github" revision="a15/master" />
 <project path="vendor/xiaomi/mithorium-common-graphics" name="Mi-Thorium/proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="github" revision="a11/master"/>
 
