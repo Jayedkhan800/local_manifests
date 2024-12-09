@@ -76,7 +76,7 @@
 </project>
 
 <!-- Extra trees -->
-<project name="xt0032rus/android_vendor_xiaomi_camera" path="vendor/xiaomi/camera" remote="github" revision="lineage-22" />
+<!-- project name="xt0032rus/android_vendor_xiaomi_camera" path="vendor/xiaomi/camera" remote="github" revision="lineage-22" / -->
 <project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="github" revision="main" />
 <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="github" revision="v4a" />
 
