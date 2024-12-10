@@ -53,6 +53,27 @@
 
 <!-- Kernel -->
 <project path="kernel/xiaomi/sdm439" name="Jprimero15/android_kernel_xiaomi_sdm439-4.19" groups="kernel" remote="github" revision="vic" />
+<project path="kernel/xiaomi/sdm439/dts/vendor-legacy" name="Mi-Thorium/kernel_devicetree_msm-4.19" groups="dts" revision="dts/master" remote="github" >
+    <linkfile src="." dest="arch/arm64/boot/dts/vendor-legacy" />
+</project>
+<project path="kernel/xiaomi/sdm439/dts/xiaomi-msm8937" name="Mi-Thorium/kernel_devicetree_xiaomi-msm8937" groups="dts" revision="dts/mi8937/4.19/master" remote="github" >
+    <linkfile src="." dest="arch/arm64/boot/dts/xiaomi-msm8937" />
+</project>
+<project path="kernel/xiaomi/sdm439/module/xiaomi-msm8937" name="Mi-Thorium/kernel_techpack_xiaomi-msm8937" groups="module" revision="techpack/mi8937/4.19/master" remote="github" >
+    <linkfile src="." dest="techpack/xiaomi-msm8937" />
+</project>
+<project path="kernel/xiaomi/sdm439/module/audio-legacy" name="Mi-Thorium/kernel_techpack_audio-legacy" groups="module" revision="audio/4.19/mithorium/master" remote="github">
+    <linkfile src="." dest="techpack/audio-legacy" />
+</project>
+<project path="kernel/xiaomi/sdm439/module/camera-legacy" name="Mi-Thorium/kernel_techpack_camera-legacy" groups="module" revision="camera/LA.UM.8.6.r1-05300-89xx.0/4.19/mithorium" remote="github" >
+    <linkfile src="." dest="techpack/camera-legacy" />
+</project>
+<project path="kernel/xiaomi/sdm439/module/camera-legacy-m" name="Mi-Thorium/kernel_techpack_camera-legacy" groups="module" revision="camera/LA.UM.5.3-10610-89xx.0/4.19/mithorium" remote="github" >
+    <linkfile src="." dest="techpack/camera-legacy-m" />
+</project>
+<project path="kernel/xiaomi/sdm439/module/prima" name="Mi-Thorium/vendor_qcom_opensource_wlan_prima" groups="module" revision="wlan/LA.UM.9.6.4/mithorium/master"  remote="github" >
+    <linkfile src="." dest="drivers/staging/prima" />
+</project>
 
 <!-- Extra trees -->
 <!-- project name="xt0032rus/android_vendor_xiaomi_camera" path="vendor/xiaomi/camera" remote="github" revision="lineage-22" / -->
