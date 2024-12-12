@@ -8,17 +8,17 @@
 <remove-project path="hardware/google/gchips" />
 <remove-project path="hardware/google/camera" />
 
-<!-- Lineage OS Pixel Device Trees -->
+<!-- crDroid and LineageOS Pixel Device Trees -->
 <project name="Trijal08/android_device_google_shusky" path="device/google/shusky" remote="github" revision="OrionOS-14" />
 <project name="crdroidandroid/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="14.0-glikched" />
-<project name="crdroidandroid/android_device_google_gs101" path="device/google/gs101" remote="github" revision="14.0-glikched" />
+<project name="Jrcable1/android_device_google_gs101" path="device/google/gs101" remote="github" revision="lineage-21.0" />
 <project name="Trijal08/android_device_google_zuma" path="device/google/zuma" remote="github" revision="14.0" />
 
 <!-- LineageOS Pixel Vendor Trees -->
 <project name="TheMuppets/proprietary_vendor_google_husky" path="vendor/google/husky" remote="github" revision="lineage-21" clone-depth="1" />
 <project name="TheMuppets/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="lineage-21" clone-depth="1" />
 
-<!-- crDroid and LineageOS hardware trees -->
+<!-- LineageOS hardware trees -->
 <project name="LineageOS/android_hardware_google_pixel" path="hardware/google/pixel" remote="github" revision="lineage-21.0" />
 <project name="LineageOS/android_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" remote="github" revision="lineage-21.0" />
 <project name="LineageOS/android_hardware_google_gchips" path="hardware/google/gchips" remote="github" revision="lineage-21.0" />
