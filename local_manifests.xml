@@ -26,7 +26,8 @@
 <project name="LineageOS/android_hardware_google_camera" path="hardware/google/camera" remote="github" revision="lineage-21.0" />
 
 <!-- Prebuilt Kernel -->
-<project name="Trijal08/dragon_device_google_shusky-kernel" path="device/google/shusky-kernel" remote="github" revision="14" clone-depth="1" />
+<!-- project name="Trijal08/dragon_device_google_shusky-kernel" path="device/google/shusky-kernel" remote="github" revision="14" clone-depth="1" / -->
+<project name="device/google/shusky-kernels/6.1" path="device/google/shusky-kernels/6.1" remote="aosp" revision="main" clone-depth="1" />
 
 <!-- Extra trees -->
 <!-- project name="SigmaDroid-Project/vendor_google_faceunlock" path="vendor/google/faceunlock" remote="github" revision="sigma-14.3" / -->
