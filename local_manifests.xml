@@ -29,7 +29,7 @@
 <project name="Trijal08/dragon_device_google_shusky-kernel" path="device/google/shusky-kernel" remote="github" revision="14" clone-depth="1" />
 
 <!-- Extra trees -->
-<project name="SigmaDroid-Project/vendor_google_faceunlock" path="vendor/google/faceunlock" remote="github" revision="sigma-14.3"/>
+<!-- project name="SigmaDroid-Project/vendor_google_faceunlock" path="vendor/google/faceunlock" remote="github" revision="sigma-14.3"/ -->
 <!-- project name="ionutsandroidbuilds/proprietary_vendor_google_camera" path="vendor/google/camera" remote="github" revision="14.0" / -->
 <project name="SigmaDroid-Project/packages_apps_PixelParts" path="packages/apps/PixelParts" remote="github" revision="sigma-14.3" />
 <project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="github" revision="main"/>
