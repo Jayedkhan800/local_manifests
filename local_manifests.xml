@@ -5,8 +5,8 @@
          fetch=".."
          review="review.lineageos.org" />
 
-<remote  name="gitlab"
-         fetch="https://gitlab.com/" />
+<!-- remote  name="gitlab"
+         fetch="https://gitlab.com/" / -->
 
 <!-- Removed Projects -->
 <remove-project path="hardware/google/pixel" />
