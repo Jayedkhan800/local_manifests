@@ -31,7 +31,7 @@
 
 <!-- Extra trees -->
 <project name="SigmaDroid-Project/proprietary_vendor_google_faceunlock" path="vendor/google/faceunlock" remote="github" revision="sigma-14.3" />
-<project name="crdroidandroid/android_packages_apps_PixelParts" path="packages/apps/PixelParts" remote="github" revision="14.0" />
+<project name="SigmaDroid-Project/android_packages_apps_PixelParts" path="packages/apps/PixelParts" remote="github" revision="sigma-14.3" />
 <project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="github" revision="main" />
 <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="github" revision="v4a" />
 
