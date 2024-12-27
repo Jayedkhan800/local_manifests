@@ -21,9 +21,9 @@
 <!-- crDroid and LineageOS hardware trees -->
 <project name="crdroidandroid/android_hardware_google_pixel" path="hardware/google/pixel" remote="github" revision="14.0" />
 <project name="crdroidandroid/android_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" remote="github" revision="14.0" />
-<project name="LineageOS/android_hardware_google_gchips" path="hardware/google/gchips" remote="github" revision="lineage-21" />
-<project name="LineageOS/android_hardware_google_graphics_common" path="hardware/google/graphics/common" remote="github" revision="lineage-21" />
-<project name="LineageOS/android_hardware_google_camera" path="hardware/google/camera" remote="github" revision="lineage-21" />
+<project name="LineageOS/android_hardware_google_gchips" path="hardware/google/gchips" remote="github" revision="lineage-21.0" />
+<project name="LineageOS/android_hardware_google_graphics_common" path="hardware/google/graphics/common" remote="github" revision="lineage-21.0" />
+<project name="LineageOS/android_hardware_google_camera" path="hardware/google/camera" remote="github" revision="lineage-21.0" />
 
 <!-- Prebuilt Kernel -->
 <!-- project name="device/google/shusky-kernel" path="device/google/shusky-kernel" remote="aosp" revision="main" clone-depth="1" / -->
