@@ -26,7 +26,8 @@
 <project name="LineageOS/android_hardware_google_camera" path="hardware/google/camera" remote="github" revision="lineage-22.0" />
 
 <!-- Prebuilt Kernel -->
-<project name="device/google/shusky-kernels/5.15" path="device/google/shusky-kernels/5.15" remote="aosp" revision="main" clone-depth="1" />
+<!-- project name="device/google/shusky-kernels/5.15" path="device/google/shusky-kernels/5.15" remote="aosp" revision="main" clone-depth="1" / -->
+<project name="hentaiOS-Devices/device_google_shusky-kernel" path="device/google/shusky-kernels/5.15/24Q3-12065098" remote="github" revision="Vallhound" clone-depth="1" />
 
 <!-- Extra trees -->
 <project name="proprietary_vendor_google_faceunlock" path="vendor/google/faceunlock" remote="crdroid-gitlab" revision="15.0" />
