@@ -7,6 +7,7 @@
 
 <!-- Removed Projects -->
 <remove-project path="hardware/google/pixel" />
+<remove-project path="hardware/google/pixel-sepolicy" />
 <remove-project path="hardware/google/graphics/common" />
 <remove-project path="hardware/google/gchips" />
 <remove-project path="hardware/google/camera" />
