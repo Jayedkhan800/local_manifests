@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote  name="github"
-         fetch=".."
-         review="review.lineageos.org" />
-
 <remote  name="crdroid-gitlab"
          fetch="https://gitlab.com/crdroidandroid/"
          revision="refs/heads/15.0" />
