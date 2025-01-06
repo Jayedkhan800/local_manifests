@@ -8,15 +8,19 @@
 <remove-project path="hardware/google/gchips" />
 <remove-project path="hardware/google/camera" />
 
-<!-- crDroid and LineageOS Pixel Device Trees -->
-<project name="Trijal08/android_device_google_shusky" path="device/google/shusky" remote="github" revision="Mist_OS-15.0" />
-<project name="crdroidandroid/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="15.0" />
-<project name="Jrcable1/android_device_google_gs101" path="device/google/gs101" remote="github" revision="lineage-22.0" />
-<project name="Trijal08/android_device_google_zuma" path="device/google/zuma" remote="github" revision="15.0" />
+<!--Device Trees-->
+<project path="device/oneplus/guacamoleb" name="crdroidandroid/android_device_oneplus_guacamoleb" remote="github" revision="15.0"/>
+<project path="device/oneplus/sm8150-common" name="LineageOS/android_device_oneplus_sm8150-common" remote="github" revision="lineage-22.1"/>
 
-<!-- LineageOS Pixel Vendor Trees -->
-<project name="TheMuppets/proprietary_vendor_google_husky" path="vendor/google/husky" remote="github" revision="lineage-22.0" clone-depth="1" />
-<project name="TheMuppets/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="lineage-22.0" clone-depth="1" />
+<!--Kernel-->
+<project path="kernel/oneplus/sm8150" name="Trijal08/anaconda_kernel_oneplus_sm8150" remote="github" revision="15.0" />
+
+<!-- Vendor folders -->
+<project path="vendor/oneplus/guacamoleb" name="crdroidandroid/proprietary_vendor_oneplus_guacamoleb" remote="github" revision="15.0" />
+<project path="vendor/oneplus/sm8150-common" name="TheMuppets/proprietary_vendor_oneplus_sm8150-common" remote="github" revision="lineage-22.1" />
+	
+<!-- Hardware -->
+<project path="hardware/oplus" name="LineageOS/android_hardware_oplus" remote="github" revision="lineage-22.0" />
 
 <!-- crDroid and LineageOS hardware trees -->
 <project name="crdroidandroid/android_hardware_google_pixel" path="hardware/google/pixel" remote="github" revision="15.0" />
@@ -25,12 +29,8 @@
 <project name="LineageOS/android_hardware_google_graphics_common" path="hardware/google/graphics/common" remote="github" revision="lineage-22.0" />
 <project name="LineageOS/android_hardware_google_camera" path="hardware/google/camera" remote="github" revision="lineage-22.0" />
 
-<!-- Prebuilt Kernel -->
-<project name="device/google/shusky-kernels/5.15" path="device/google/shusky-kernels/5.15" remote="aosp" revision="main" clone-depth="1" />
-
 <!-- Extra trees -->
 <project name="proprietary_vendor_google_faceunlock" path="vendor/google/faceunlock" remote="crdroid-gitlab" revision="15.0" />
-<project name="crdroidandroid/android_packages_apps_PixelParts" path="packages/apps/PixelParts" remote="github" revision="15.0" />
 <project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="github" revision="main" />
 <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="github" revision="v4a" />
 
