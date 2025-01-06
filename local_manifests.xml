@@ -20,14 +20,14 @@
 <project path="vendor/oneplus/sm8150-common" name="TheMuppets/proprietary_vendor_oneplus_sm8150-common" remote="github" revision="lineage-22.1" />
 	
 <!-- Hardware -->
-<project path="hardware/oplus" name="LineageOS/android_hardware_oplus" remote="github" revision="lineage-22.0" />
+<project path="hardware/oplus" name="LineageOS/android_hardware_oplus" remote="github" revision="lineage-22.1" />
 
 <!-- crDroid and LineageOS hardware trees -->
-<project name="crdroidandroid/android_hardware_google_pixel" path="hardware/google/pixel" remote="github" revision="15.0" />
-<project name="crdroidandroid/android_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" remote="github" revision="15.0" />
-<project name="LineageOS/android_hardware_google_gchips" path="hardware/google/gchips" remote="github" revision="lineage-22.0" />
-<project name="LineageOS/android_hardware_google_graphics_common" path="hardware/google/graphics/common" remote="github" revision="lineage-22.0" />
-<project name="LineageOS/android_hardware_google_camera" path="hardware/google/camera" remote="github" revision="lineage-22.0" />
+<project name="LineageOS/android_hardware_google_pixel" path="hardware/google/pixel" remote="github" revision="lineage-22.1" />
+<project name="LineageOS/android_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" remote="github" revision="lineage-22.1" />
+<project name="LineageOS/android_hardware_google_gchips" path="hardware/google/gchips" remote="github" revision="lineage-22.1" />
+<project name="LineageOS/android_hardware_google_graphics_common" path="hardware/google/graphics/common" remote="github" revision="lineage-22.1" />
+<project name="LineageOS/android_hardware_google_camera" path="hardware/google/camera" remote="github" revision="lineage-22.1" />
 
 <!-- Extra trees -->
 <project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="github" revision="main" />
