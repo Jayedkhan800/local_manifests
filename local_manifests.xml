@@ -2,8 +2,8 @@
 <manifest>
 
 <!-- Device Trees -->
-<project path="device/oneplus/guacamoleb" name="crdroidandroid/android_device_oneplus_guacamoleb" remote="github" revision="15.0"/>
-<project path="device/oneplus/sm8150-common" name="LineageOS/android_device_oneplus_sm8150-common" remote="github" revision="vauxite"/>
+<project path="device/oneplus/guacamoleb" name="crdroidandroid/android_device_oneplus_guacamoleb" remote="github" revision="15.0" />
+<project path="device/oneplus/sm8150-common" name="LineageOS/android_device_oneplus_sm8150-common" remote="github" revision="lineage-22.1" />
 
 <!-- Kernel Source-->
 <project path="kernel/oneplus/sm8150" name="Trijal08/anaconda_kernel_oneplus_sm8150" remote="github" revision="lineage-22.1" />
