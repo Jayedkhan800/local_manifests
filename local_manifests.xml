@@ -7,7 +7,6 @@
 <remove-project path="hardware/google/graphics/common" />
 <remove-project path="hardware/google/gchips" />
 <remove-project path="hardware/google/camera" />
-<remove-project path="build/release" />
 
 <!-- crDroid and LineageOS Pixel Device Trees -->
 <project name="Trijal08/android_device_google_shusky" path="device/google/shusky" remote="github" revision="Mist_OS-15.1" />
@@ -27,8 +26,7 @@
 <project name="LineageOS/android_hardware_google_camera" path="hardware/google/camera" remote="github" revision="lineage-22.1" />
 
 <!-- Prebuilt Kernel -->
-<project name="GrapheneOS/device_google_shusky-kernels_5.15" path="device/google/shusky-kernels/5.15" remote="github" revision="15" clone-depth="1" />
-<project name="Trijal08/rising_build_release" path="build/release" remote="github" revision="fifteen" />
+<project name="device/google/shusky-kernels/5.15" path="device/google/shusky-kernels/5.15" remote="aosp" revision="main" clone-depth="1" />
 
 <!-- Extra trees -->
 <project name="proprietary_vendor_google_faceunlock" path="vendor/google/faceunlock" remote="crdroid-gitlab" revision="15.0" />
