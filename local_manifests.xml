@@ -21,7 +21,7 @@
 <project path="vendor/oneplus/sm8150-common" name="DerpFest-Devices/proprietary_vendor_oneplus_sm8150-common" remote="github" revision="15" />
 
 <!-- Hardware -->
-<project path="hardware/oplus" name="DerpFest-Devices/hardware_oplus" remote="github" revision="15" />
+<project path="hardware/oplus" name="HurtCopain/hardware_oplus" remote="github" revision="fifteen" />
 
 <!-- crDroid and LineageOS hardware trees -->
 <project name="LineageOS/android_hardware_google_pixel" path="hardware/google/pixel" remote="github" revision="lineage-22.1" />
