@@ -12,7 +12,7 @@
 <project name="LineageOS/android_device_google_bonito" path="device/google/bonito" remote="github" revision="lineage-22.1" />
 
 <!-- LineageOS Pixel Vendor Trees -->
-<project name="austineyoung2000/proprietary_vendor_google_bonito" path="vendor/google/bonito" remote="github" revision="lineage-22.1" clone-depth="1" />
+<project name="TheMuppets/proprietary_vendor_google_bonito" path="vendor/google/bonito" remote="github" revision="lineage-22.1" clone-depth="1" />
 
 <!-- LineageOS hardware trees -->
 <project name="LineageOS/android_hardware_google_pixel" path="hardware/google/pixel" remote="github" revision="lineage-22.1" />
