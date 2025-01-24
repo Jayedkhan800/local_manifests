@@ -16,15 +16,15 @@
 <remove-project path="hardware/google/camera" />
 
 <!-- LineageOS device trees -->
-<project path="device/nothing/Spacewar" name="device_nothing_Spacewar" remote="davidev"/>
+<project name="device_nothing_Spacewar" path="device/nothing/Spacewar" remote="davidev" />
 
 <!-- LineageOS Spacewar kernel source -->
-<project path="kernel/nothing/sm7325" name="kernel_nothing_sm7325" remote="davidev"/>
+<project name="kernel_nothing_sm7325" path="kernel/nothing/sm7325" remote="davidev" />
 
 <!-- LineageOS Spacewar vendor trees -->
-<project path="vendor/nothing/Spacewar" name="vendor_nothing_Spacewar" remote="davidev"/>
-<project path="vendor/nothing/camera" name="proprietary_vendor_nothing_camera" remote="mario"/>
-<project name="packages_apps_PixysGlyph" path="packages/apps/PixysGlyph" remote="davidev"/>
+<project name="vendor_nothing_Spacewar" path="vendor/nothing/Spacewar" remote="davidev" />
+<project name="proprietary_vendor_nothing_camera" path="vendor/nothing/camera" remote="mario" />
+<project name="packages_apps_PixysGlyph" path="packages/apps/PixysGlyph" remote="davidev" />
 
 <!-- LineageOS hardware trees -->
 <project name="LineageOS/android_hardware_google_pixel" path="hardware/google/pixel" remote="github" revision="lineage-22.1" />
