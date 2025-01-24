@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<remote name="davidev" 
+        fetch="https://github.com/DaViDev985" 
+        revision="derp15.1"/>
+<remote name="mario" 
+        fetch="https://gitlab.com/ThankYouMario/" 
+        revision="uvite"/>
+
 <!-- Removed Projects -->
 <remove-project path="hardware/google/pixel" />
 <remove-project path="hardware/google/pixel-sepolicy" />
@@ -8,15 +15,16 @@
 <remove-project path="hardware/google/gchips" />
 <remove-project path="hardware/google/camera" />
 
-<!-- crDroid and LineageOS Pixel Device Trees -->
-<project name="Trijal08/android_device_google_shusky" path="device/google/shusky" remote="github" revision="Mist_OS-15.1" />
-<project name="RisingTechOSS-devices/device_google_gs-common" path="device/google/gs-common" remote="github" revision="fifteen" />
-<project name="LineageOS/android_device_google_gs101" path="device/google/gs101" remote="github" revision="lineage-22.1" />
-<project name="Trijal08/android_device_google_zuma" path="device/google/zuma" remote="github" revision="15.1" />
+<!-- LineageOS device trees -->
+<project path="device/nothing/Spacewar" name="device_nothing_Spacewar" remote="davidev"/>
 
-<!-- RisingOS Pixel Vendor Trees -->
-<project name="austineyoung2000/proprietary_vendor_google_husky" path="vendor/google/husky" remote="github" revision="fifteen" clone-depth="1" />
-<project name="austineyoung2000/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="fifteen" clone-depth="1" />
+<!-- LineageOS Spacewar kernel source -->
+<project path="kernel/nothing/sm7325" name="kernel_nothing_sm7325" remote="davidev"/>
+
+<!-- LineageOS Spacewar vendor trees -->
+<project path="vendor/nothing/Spacewar" name="vendor_nothing_Spacewar" remote="davidev"/>
+<project path="vendor/nothing/camera" name="proprietary_vendor_nothing_camera" remote="mario"/>
+<project name="packages_apps_PixysGlyph" path="packages/apps/PixysGlyph" remote="davidev"/>
 
 <!-- LineageOS hardware trees -->
 <project name="LineageOS/android_hardware_google_pixel" path="hardware/google/pixel" remote="github" revision="lineage-22.1" />
@@ -24,9 +32,6 @@
 <project name="LineageOS/android_hardware_google_gchips" path="hardware/google/gchips" remote="github" revision="lineage-22.1" />
 <project name="LineageOS/android_hardware_google_graphics_common" path="hardware/google/graphics/common" remote="github" revision="lineage-22.1" />
 <project name="LineageOS/android_hardware_google_camera" path="hardware/google/camera" remote="github" revision="lineage-22.1" />
-
-<!-- Prebuilt Kernel -->
-<project name="device/google/shusky-kernels/5.15" path="device/google/shusky-kernels/5.15" remote="aosp" revision="main" clone-depth="1" />
 
 <!-- Extra trees -->
 <project name="proprietary_vendor_google_faceunlock" path="vendor/google/faceunlock" remote="crdroid-gitlab" revision="15.0" />
