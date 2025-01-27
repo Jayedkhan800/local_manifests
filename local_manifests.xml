@@ -9,7 +9,8 @@
 <remove-project path="hardware/google/camera" />
 
 <!-- crDroid and LineageOS Pixel Device Trees -->
-<project name="Trijal08/android_device_google_bonito" path="device/google/bonito" remote="github" revision="Mist_OS-15.1" />
+<project name="Trijal08/android_device_google_bonito" path="device/google/bonito" remote="github" revision="vic-test" />
+<!-- project name="Trijal08/android_device_google_bonito" path="device/google/bonito" remote="github" revision="Mist_OS-15.1" / -->
 <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="lineage-22.1" />
 <project name="LineageOS/android_device_google_gs101" path="device/google/gs101" remote="github" revision="lineage-22.1" />
 
